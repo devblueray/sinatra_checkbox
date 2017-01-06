@@ -1,0 +1,15 @@
+<html>
+    <head>
+        <title>Checkbox Tester</title>
+    </head>
+    <body>
+        <form action='cbtest' method='post'>
+            <input type='checkbox' name="cb1" value="CB1"/>CB1
+            <input type='checkbox' name="cb2" value="CB2"/>CB2
+            <button type='submit'>Submit</button>
+            </form>
+        <p> CB1 is <%= @cb1bool %> It's value is <%= @cb1val %>
+        <p> CB2 is <%= @cb2bool %> It's value is <%= @cb2val %>
+
+    </body>
+</html>
